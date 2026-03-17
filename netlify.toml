@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NEXT_PUBLIC_MINIMAL_NEXTJS = "true"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  skip = true
