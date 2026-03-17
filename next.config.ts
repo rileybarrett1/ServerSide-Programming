@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 
+// Assignment 4: Static Export Configuration
 const nextConfig: NextConfig = {
   output: "export",
   images: {
