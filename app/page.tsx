@@ -24,7 +24,7 @@ export default function Home() {
           />
         </div>
         <h1 className="text-5xl font-bold text-center text-green-400 drop-shadow-lg">
-          Welcome to Rick and Morty Trivia!
+          Welcome to Rick and Morty Trivia Adventure!
         </h1>
         <p className="text-xl text-center text-gray-200 max-w-md">
           Explore characters from the Rick and Morty universe. Click on Characters to get started!
