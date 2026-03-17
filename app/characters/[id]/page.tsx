@@ -1,5 +1,14 @@
 import Character from "@/components/Character";
 
+export async function generateStaticParams() {
+  const res = await fetch("https://rickandmortyapi.com/api/character");
+  const data = await res.json();
+
+  return data.results.map((character: { id: number }) => ({
+    id: String(character.id),
+  }));
+}
+
 export default async function CharacterDetail({
   params,
 }: {
