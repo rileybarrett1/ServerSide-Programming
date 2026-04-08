@@ -1,8 +1,6 @@
 import type { NextConfig } from "next";
 
-// Assignment 4: Static Export Configuration
 const nextConfig: NextConfig = {
-  output: "export",
   images: {
     unoptimized: true,
     remotePatterns: [
@@ -16,6 +14,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-
-// Force rebuild

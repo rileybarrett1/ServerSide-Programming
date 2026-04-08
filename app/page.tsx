@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,12 +31,12 @@ export default function Home() {
           Explore characters from the Rick and Morty universe. Click on Characters to get started!
         </p>
         <div className="flex gap-4 mt-4">
-          <a 
+          <Link 
             href="/characters" 
             className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-green-500/50"
           >
             Explore Characters
-          </a>
+          </Link>
         </div>
       </main>
     </div>
